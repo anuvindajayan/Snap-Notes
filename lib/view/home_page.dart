@@ -61,7 +61,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold(appBar: AppBar(backgroundColor: Colors.cyan,title: Text("Snap Notes 📝",style: TextStyle(fontWeight: FontWeight.bold),),),
       backgroundColor: ColorConstants.primaryBackgroundColor,
       floatingActionButton: FloatingActionButton(
         shape: const OutlineInputBorder(
